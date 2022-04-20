@@ -4,18 +4,14 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <title>LandingPage</title>
+        <title>Projeto Udemy</title>
     </head>
 
     <body>
         <header>
             <a href="index.html">
-                        <img
-                            class="logo"
-                            src="Assets/logo.png"
-                            alt="Logo"
-                        />
-                    </a>
+                <img id="logo" src="Assets/logo.png" alt="Logo" />
+            </a>
 
             <nav class="opcoes-menu">
                 <!--<button>Abrir/fechar opcoes</button>-->
@@ -39,20 +35,63 @@
             </nav>
         </header>
 
-        <main>Conteudo principal</main>
+        <main>
+            <header class="cabecalho-conteudo-principal">
+                <h2>Texto grande aqui</h2>
+                <p>Texto menor aqui</p>
+                <a href="#servicos"> Role para ver mais </a>
+            </header>
+
+            <section id="servicos"> <!--seção serviços-->
+                <h2>O que fazemos</h2>
+
+                <section class="desenvolvimento-web">
+                    <img src="Assets/img/icone-desenvolvimento-web.png" alt="Imagem desenvolvimento web">
+                    <h3>Desenvolvimento Web</h3>
+                    <p>Lorem ipsum dolor, sit amet consectetur adipisicing elit. Accusantium amet ex reici</p>
+                </section>
+
+                <section class="e-commerce">
+                    <img src="Assets/img/icone-carrinho-compras.png" alt="Imagem e-commerce">
+                    <h3>E-commerce</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Pariatur possimus blandit</p>
+
+                </section>
+
+                <section class="cafe">
+                    <img src="Assets/img/icone-cafe.png" alt="Imagem cafe">
+                    <h3>Café</h3>
+                    <p>Lorem ipsum dolor sit amet, consectetur adipisicing elit. Autem consequatur fugiat</p>
+
+                </section>
+
+            </section> <!--fim seção serviços-->
+
+            <section class="depoimentos"> <!--Seção depoimentos-->
+                <h2>O que falam de nós</h2>
+
+                <section class="depoimentos-conteudo">
+                    <img src="Assets/img/depoimentos/pessoa-1.jpg" alt="Imagem depoimento">
+                    <p>Lorem, ipsum dolor sit amet consectetur adipisicing elit. Explicadsa amet awolit fea</p>
+                    <p>Nome da pessoa - Cargo </p>
+                </section>
+
+            </section> <!--Seção depoimentos-->
+
+        </main>
 
         <footer>
             <div class="cabecalho-cima">
                 <div class="primeira-coluna">
                     <a href="index.html">
                         <img
-                            class="primeira-imagem"
+                            id="primeira-imagem"
                             src="Assets/logo.png"
                             alt="Logo"
                         />
                     </a>
 
-                    <p class="primeira-texto">
+                    <p id="primeira-texto">
                         Lorem ipsum dolor sit, amet consectetur adipisicing
                         elit. Officiis aut animi a nam, commodi numquam quisquam
                         eveniet nostrum voluptas ipsa! Non ducimus similique id
@@ -82,7 +121,8 @@
                         </li>
                         <li>
                             <a href="https://www.Youtube.com/" target="_blank"
-                                >Youtube</a>
+                                >Youtube</a
+                            >
                         </li>
                     </ul>
                 </div>
@@ -96,15 +136,15 @@
                         </li>
 
                         <li>
-                            <a href="#">Sobre nós</a>
+                            <a href="sobre.html">Sobre nós</a>
                         </li>
 
                         <li>
-                            <a href="#">Portifolio</a>
+                            <a href="portifolio.html">Portifolio</a>
                         </li>
 
                         <li>
-                            <a href="#">Contato</a>
+                            <a href="contato.html">Contato</a>
                         </li>
                     </ul>
                 </div>
@@ -113,7 +153,6 @@
             <div class="cabecalho-baixo">
                 <h3>Realizado por Arthur para aprendizado</h3>
             </div>
-
         </footer>
     </body>
 </html>
