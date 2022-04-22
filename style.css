@@ -1,0 +1,219 @@
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro&display=swap');
+@import url('https://fonts.googleapis.com/css2?family=Source+Sans+Pro:wght@700&display=swap');
+
+*{
+    box-sizing: border-box;
+}
+
+body{
+    font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+img{
+    max-width: 100%;
+    height: auto;
+}
+.cabecalho{
+    background-color: #fff;
+    padding: 15px;
+    
+}
+.logo{
+    background-image: url(Assets/img/logotipo-preto.png);
+    background-repeat: no-repeat;
+    display: block;
+    text-indent: -9999px;
+    width: 120px;
+    height: 53px;
+    margin: 0;
+}
+
+.logo-branco{
+    background-image: url(Assets/img/logotipo-branco.png);
+    padding-bottom: 30px;
+}
+.opcoes-menu-botao{
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-indent: -9999px;
+    background-image: url(Assets/img/menuprincipal-btn-bg.png);
+    background-repeat: no-repeat;
+    background-position: 5px 5px;
+    background-color: #fff;
+    border-color: #c4c4c4;
+    border-style: solid;
+    border-radius: 5px;
+    cursor: pointer;
+
+    position: absolute;
+    top: 15px;
+    right: 15px;
+}
+/*.opcoes-menu-botao-fechar{
+    background-position: -48px 7px;
+}*/
+.opcoes-menu-lista{
+    padding: 0;
+    text-decoration: none;
+    list-style: none;
+}
+
+.opcoes-menu-item{
+    text-decoration: none;
+    font-weight: bold;
+    color: #343434;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px;
+}
+.opcoes-menu-item-atual{
+    color: #f44242;
+}
+
+.rodape{
+    color: white;
+}
+.rodape-cima{
+    background-image: url(Assets/img/rodape-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #272525;
+    padding: 15px;
+}
+
+.rodape-baixo{
+    background-color: black;
+    text-align: center;
+    padding: 15px;
+}
+
+.coluna{
+    margin-top: 40px;
+    margin-bottom: 40px;
+}
+
+.rodape-titulo{
+    border-bottom: 1px solid #fff;
+    padding: 0 10px 10px 10px;
+    font-size: 18px;
+
+}
+
+.lista-links{
+    padding: 0;
+    padding: 0;
+    list-style: none;
+}
+
+.lista-links-item{
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px;
+}
+.lista-links-item::before{
+    content: '>';
+    margin-right: 8px;
+    color: #f44242;
+}
+
+.titulo-principal{
+    background-color: #dd3f3f;
+    background-image: url(Assets/img/cabecalho-pagina-bg.jpg);
+    background-attachment: fixed;
+    color: #fff;
+    padding-bottom: 40px;
+    padding-top: 40px;
+}
+.titulo{
+    text-align: center;
+    text-transform: uppercase;
+}
+.titulo::after{
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 20px;
+}
+
+.pagina-conteudo{
+    padding: 15px;
+    padding-top: 25px;
+    padding-bottom: 25px;
+
+}
+
+.pagina-conteudo p {
+    color: #3a3a3a;
+    line-height: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+}
+
+.text-center{
+    text-align: center;
+}
+
+.lista-trabalhos{
+    list-style: none;
+    padding: 0;
+}
+
+.lista-trabalhos-item{
+    margin-left: -15px;
+    margin-right: -15px;
+    margin-bottom: 50px;
+}
+
+.lista-trabalhos-item a{
+    text-decoration: none;
+
+}
+
+.lista-trabalhos-titulo{
+    color: #000;
+    font-size: 18px;
+    margin-left: 15px;
+    border-left: 1px solid #000;
+    padding-left: 10px;
+}
+
+.formulario{
+    background-color: #efecec;
+    margin-left: -15px;
+    margin-right: -15px;
+    padding: 40px 15px 40px 15px;
+    box-shadow: 0 3px 5px #989898;
+}
+
+.formulario-grupo{
+    margin-bottom: 15px;
+}
+
+.formulario-campo{
+    width: 100%;
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    padding: 10px 5px;
+}
+
+.formulario-label{
+    color: #343434;
+}
+
+.formulario-botao{
+    border: 3px solid #f00 ;
+    border-radius: 300px;
+    background-color: #fff;
+    color: #f00;
+    padding: 5px 20px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    font-weight: bold;
+}

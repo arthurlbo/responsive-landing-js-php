@@ -4,32 +4,34 @@
         <meta charset="UTF-8" />
         <meta http-equiv="X-UA-Compatible" content="IE=edge" />
         <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+        <link rel="stylesheet" href="normalize.css">
+        <link rel="stylesheet" href="style.css">
         <title>Sobre nós</title>
     </head>
 
-    <body>
-        <header>
-            <a href="index.html">
-                <img id="logo" src="Assets/logo.png" alt="Logo" />
+   <body>
+        <header class="cabecalho">
+            <a href="index.html" class="logo">
+                <h1>Logo</h1>
             </a>
 
             <nav class="opcoes-menu">
-                <!--<button>Abrir/fechar opcoes</button>-->
-                <ul>
+                <button class="opcoes-menu-botao opcoes-menu-botao-fechar">Abrir/fechar opcoes</button>
+                <ul class="opcoes-menu-lista">
                     <li>
-                        <a href="index.html">Home</a>
+                        <a href="index.html" class="opcoes-menu-item ">Home</a>
                     </li>
 
                     <li>
-                        <a href="sobre.html">Sobre nós</a>
+                        <a href="sobre.html" class="opcoes-menu-item opcoes-menu-item-atual">Sobre nós</a>
                     </li>
 
                     <li>
-                        <a href="portifolio.html">Portifolio</a>
+                        <a href="portifolio.html" class="opcoes-menu-item">Portifolio</a>
                     </li>
 
                     <li>
-                        <a href="contato.html">Contato</a>
+                        <a href="contato.html" class="opcoes-menu-item">Contato</a>
                     </li>
                 </ul>
             </nav>
@@ -37,15 +39,16 @@
 
         <main>
             <article>
-                <header class="titulo-sobre">
-                    <h1>Sobre nós</h1>
+                <header class="titulo-principal">
+                    <h1 class="titulo">Sobre nós</h1>
                 </header>
-                <section class="conteudo-principal-sobre">
-                    <p>
+
+                <section class="pagina-conteudo">
+                    <p class="text-center">
                         Lorem ipsum dolor sit amet consectetur adipisicing elit.
                     </p>
                     <img
-                        id="conteudo-principal-sobre-imagem"
+                        id="pagina-conteudo-imagem"
                         src="Assets/img/time-unido.jpg"
                         alt="Imagem(2)"
                     />
@@ -63,77 +66,91 @@
             </article>
         </main>
 
-        <footer>
-            <div class="cabecalho-cima">
-                <div class="primeira-coluna">
-                    <a href="index.html">
-                        <img
-                            id="primeira-imagem"
-                            src="Assets/logo.png"
-                            alt="Logo"
-                        />
+       <footer class="rodape">
+            <div class="rodape-cima">
+                <div class="coluna">
+                    <a href="index.html" class="logo logo-branco">
+                        <h2>Logo</h2>
                     </a>
 
-                    <p id="primeira-texto">
+                    <p>
                         Lorem ipsum dolor sit, amet consectetur adipisicing
                         elit. Officiis aut animi a nam, commodi numquam quisquam
                         eveniet nostrum voluptas ipsa! Non ducimus similique id
-                        veniam, quia volupt
+                        veniam, quia voluptas fugiat sapiente odit.
                     </p>
                 </div>
 
-                <div class="midias">
-                    <h2>Sociais</h2>
-                    <ul>
+                <div class="coluna">
+                    <h2 class="rodape-titulo">Sociais</h2>
+                    <ul class="lista-links">
                         <li>
                             <a
+                                class="lista-links-item"
                                 href="https://twitter.com/explore"
                                 target="_blank"
                                 >Twitter</a
                             >
                         </li>
                         <li>
-                            <a href="https://www.facebook.com/" target="_blank"
+                            <a
+                                class="lista-links-item"
+                                href="https://www.facebook.com/"
+                                target="_blank"
                                 >Facebook</a
                             >
                         </li>
                         <li>
-                            <a href="https://www.Instagram.com/" target="_blank"
+                            <a
+                                class="lista-links-item"
+                                href="https://www.Instagram.com/"
+                                target="_blank"
                                 >Instagram</a
                             >
                         </li>
                         <li>
-                            <a href="https://www.Youtube.com/" target="_blank"
+                            <a
+                                class="lista-links-item"
+                                href="https://www.Youtube.com/"
+                                target="_blank"
                                 >Youtube</a
                             >
                         </li>
                     </ul>
                 </div>
 
-                <div class="links-internos">
-                    <h2>Links</h2>
+                <div class="coluna">
+                    <h2 class="rodape-titulo">Links</h2>
 
-                    <ul>
+                    <ul class="lista-links">
                         <li>
-                            <a href="index.html">Home</a>
+                            <a class="lista-links-item" href="index.html"
+                                >Home</a
+                            >
                         </li>
 
                         <li>
-                            <a href="sobre.html">Sobre nós</a>
+                            <a class="lista-links-item" href="sobre.html"
+                                >Sobre nós</a
+                            >
                         </li>
 
                         <li>
-                            <a href="portifolio.html">Portifolio</a>
+                            <a class="lista-links-item" href="portifolio.html"
+                                >Portifolio</a
+                            >
                         </li>
 
                         <li>
-                            <a href="contato.html">Contato</a>
+                            <a class="lista-links-item" href="contato.html"
+                                >Contato</a
+                            >
                         </li>
                     </ul>
                 </div>
             </div>
 
-            <div class="cabecalho-baixo">
+            <div class="rodape-baixo">
                 <h3>Realizado por Arthur para aprendizado</h3>
             </div>
         </footer>
