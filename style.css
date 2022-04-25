@@ -322,43 +322,38 @@ body {
 
 .rodape {
   color: white; }
-
-.rodape-cima {
-  background-image: url(Assets/img/rodape-bg.jpg);
-  background-repeat: no-repeat;
-  background-size: cover;
-  background-color: #272525;
-  padding: 15px; }
-
-.rodape-baixo {
-  background-color: black;
-  text-align: center;
-  padding: 15px; }
+  .rodape-cima {
+    background-image: url(Assets/img/rodape-bg.jpg);
+    background-repeat: no-repeat;
+    background-size: cover;
+    background-color: #272525;
+    padding: 15px; }
+  .rodape-baixo {
+    background-color: black;
+    text-align: center;
+    padding: 15px; }
+    .rodape-baixo-titulo {
+      border-bottom: 1px solid #fff;
+      padding: 0 10px 10px 10px;
+      font-size: 18px; }
 
 .coluna {
   margin-top: 40px;
   margin-bottom: 40px; }
 
-.rodape-titulo {
-  border-bottom: 1px solid #fff;
-  padding: 0 10px 10px 10px;
-  font-size: 18px; }
-
 .lista-links {
   padding: 0;
   padding: 0;
   list-style: none; }
-
-.lista-links-item {
-  color: #fff;
-  text-decoration: none;
-  display: block;
-  margin-bottom: 10px; }
-
-.lista-links-item::before {
-  content: '>';
-  margin-right: 8px;
-  color: #f44242; }
+  .lista-links-item {
+    color: #fff;
+    text-decoration: none;
+    display: block;
+    margin-bottom: 10px; }
+  .lista-links-item::before {
+    content: '>';
+    margin-right: 8px;
+    color: #f44242; }
 
 .depoimentos {
   background-color: #f44242;
@@ -366,32 +361,27 @@ body {
   background-attachment: fixed;
   color: #fff;
   padding: 30px 0; }
-
-.depoimentos-item {
-  padding: 0 15px; }
-
-.depoimentos-img {
-  display: block;
-  margin: 0 auto;
-  box-shadow: 3px 3px 0 #000;
-  margin-bottom: 30px; }
-
-.depoimentos-texto {
-  line-height: 24px;
-  margin-bottom: 30px; }
-
-.depoimentos-texto::before {
-  background: url("Assets/img/aspas.png") no-repeat;
-  content: '';
-  display: inline-block;
-  width: 25px;
-  height: 23px;
-  margin-right: 5px; }
-
-.depoimentos-pessoa {
-  text-align: center;
-  font-weight: bold;
-  font-style: italic; }
+  .depoimentos-item {
+    padding: 0 15px; }
+  .depoimentos-img {
+    display: block;
+    margin: 0 auto;
+    box-shadow: 3px 3px 0 #000;
+    margin-bottom: 30px; }
+  .depoimentos-texto {
+    line-height: 24px;
+    margin-bottom: 30px; }
+  .depoimentos-texto::before {
+    background: url("Assets/img/aspas.png") no-repeat;
+    content: '';
+    display: inline-block;
+    width: 25px;
+    height: 23px;
+    margin-right: 5px; }
+  .depoimentos-pessoa {
+    text-align: center;
+    font-weight: bold;
+    font-style: italic; }
 
 .formulario {
   background-color: #efecec;
@@ -399,29 +389,25 @@ body {
   margin-right: -15px;
   padding: 40px 15px 40px 15px;
   box-shadow: 0 3px 5px #989898; }
-
-.formulario-grupo {
-  margin-bottom: 15px; }
-
-.formulario-campo {
-  width: 100%;
-  border: 1px solid #c4c4c4;
-  border-radius: 5px;
-  padding: 10px 5px; }
-
-.formulario-label {
-  color: #343434; }
-
-.formulario-botao {
-  border: 3px solid #f44242;
-  border-radius: 300px;
-  background-color: #fff;
-  color: #f44242;
-  padding: 5px 20px;
-  cursor: pointer;
-  display: block;
-  margin: 0 auto;
-  font-weight: bold; }
+  .formulario-grupo {
+    margin-bottom: 15px; }
+  .formulario-campo {
+    width: 100%;
+    border: 1px solid #c4c4c4;
+    border-radius: 5px;
+    padding: 10px 5px; }
+  .formulario-label {
+    color: #343434; }
+  .formulario-botao {
+    border: 3px solid #f44242;
+    border-radius: 300px;
+    background-color: #fff;
+    color: #f44242;
+    padding: 5px 20px;
+    cursor: pointer;
+    display: block;
+    margin: 0 auto;
+    font-weight: bold; }
 
 .logo {
   background-image: url(Assets/img/logotipo-preto.png);
@@ -431,104 +417,95 @@ body {
   width: 120px;
   height: 53px;
   margin: 0; }
-
-.logo-branco {
-  background-image: url(Assets/img/logotipo-branco.png);
-  padding-bottom: 30px; }
+  .logo-branco {
+    background-image: url(Assets/img/logotipo-branco.png);
+    padding-bottom: 30px; }
 
 .mapa {
   height: 0;
   padding-bottom: 100%;
   position: relative;
   margin: 0 -15px -25px -15px; }
+  .mapa iframe {
+    width: 100% !important;
+    height: 100% !important;
+    position: absolute;
+    top: 0;
+    left: 0;
+    overflow: hidden; }
 
-.mapa iframe {
-  width: 100% !important;
-  height: 100% !important;
-  position: absolute;
-  top: 0;
-  left: 0;
-  overflow: hidden; }
-
-.opcoes-menu-botao {
-  display: block;
-  width: 50px;
-  height: 50px;
-  text-indent: -9999px;
-  background-image: url(Assets/img/menuprincipal-btn-bg.png);
-  background-repeat: no-repeat;
-  background-position: 5px 5px;
-  background-color: #fff;
-  border-color: #c4c4c4;
-  border-style: solid;
-  border-radius: 5px;
-  cursor: pointer;
-  position: absolute;
-  top: 45px;
-  right: 23px; }
-
-/*.opcoes-menu-botao-fechar{
+.opcoes-menu {
+  /*.opcoes-menu-botao-fechar{
     background-position: -48px 7px;
-}*/
-.opcoes-menu-lista {
-  padding: 0;
-  text-decoration: none;
-  list-style: none; }
-
-.opcoes-menu-item {
-  text-decoration: none;
-  font-weight: bold;
-  color: #3a3a3a;
-  display: block;
-  margin-bottom: 10px;
-  font-size: 18px; }
-
-.opcoes-menu-item-atual {
-  color: #f44242; }
-
-.titulo-principal {
-  background-color: #f44242;
-  background-image: url(Assets/img/cabecalho-pagina-bg.jpg);
-  background-attachment: fixed;
-  color: #fff;
-  padding-bottom: 40px;
-  padding-top: 40px; }
+}*/ }
+  .opcoes-menu-botao {
+    display: block;
+    width: 50px;
+    height: 50px;
+    text-indent: -9999px;
+    background-image: url(Assets/img/menuprincipal-btn-bg.png);
+    background-repeat: no-repeat;
+    background-position: 5px 5px;
+    background-color: #fff;
+    border-color: #c4c4c4;
+    border-style: solid;
+    border-radius: 5px;
+    cursor: pointer;
+    position: absolute;
+    top: 45px;
+    right: 23px; }
+  .opcoes-menu-lista {
+    padding: 0;
+    text-decoration: none;
+    list-style: none; }
+  .opcoes-menu-item {
+    text-decoration: none;
+    font-weight: bold;
+    color: #3a3a3a;
+    display: block;
+    margin-bottom: 10px;
+    font-size: 18px; }
+    .opcoes-menu-item-atual {
+      color: #f44242; }
 
 .titulo {
   text-align: center;
   text-transform: uppercase; }
-
-.titulo::after {
-  content: '';
-  display: block;
-  width: 50px;
-  height: 3px;
-  background-color: #fff;
-  margin: 0 auto;
-  margin-top: 20px; }
+  .titulo-principal {
+    background-color: #f44242;
+    background-image: url(Assets/img/cabecalho-pagina-bg.jpg);
+    background-attachment: fixed;
+    color: #fff;
+    padding-bottom: 40px;
+    padding-top: 40px; }
+  .titulo::after {
+    content: '';
+    display: block;
+    width: 50px;
+    height: 3px;
+    background-color: #fff;
+    margin: 0 auto;
+    margin-top: 20px; }
 
 .pagina-conteudo {
   padding: 15px;
   padding-top: 25px;
   padding-bottom: 25px; }
-
-.pagina-conteudo p {
-  color: #3a3a3a;
-  line-height: 20px;
-  margin-bottom: 20px;
-  margin-top: 20px;
-  text-align: center; }
+  .pagina-conteudo p {
+    color: #3a3a3a;
+    line-height: 20px;
+    margin-bottom: 20px;
+    margin-top: 20px;
+    text-align: center; }
 
 .servicos {
   padding: 30px 0; }
-
-.servicos-item {
-  text-align: center;
-  padding: 0 15px;
-  margin-bottom: 50px; }
-
-.servicos-texto {
-  color: #3a3a3a; }
+  .servicos-item {
+    text-align: center;
+    padding: 0 15px;
+    margin-bottom: 50px; }
+  .servicos-texto {
+    color: #3a3a3a; }
 
 .cabecalho-home {
   background: url("Assets/img/cabecalho-home-bg.jpg") #000 no-repeat;

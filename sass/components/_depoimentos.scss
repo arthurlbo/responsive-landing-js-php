@@ -4,36 +4,37 @@
     background-attachment: fixed;
     color: #fff;
     padding: 30px 0;
+
+    &-item {
+        padding: 0 15px;
+    
+    }
+    
+    &-img {
+        display: block;
+        margin: 0 auto;
+        box-shadow: 3px 3px 0 #000;
+        margin-bottom: 30px;
+    }
+    
+    &-texto {
+        line-height: 24px;
+        margin-bottom: 30px;
+    }
+
+    &-texto::before{
+        background: url('Assets/img/aspas.png') no-repeat;
+        content: '';
+        display: inline-block;
+        width: 25px;
+        height: 23px;
+        margin-right: 5px;
+    }
+
+    &-pessoa {
+        text-align: center;
+        font-weight: bold;
+        font-style: italic;
+    }
 }
 
-.depoimentos-item {
-    padding: 0 15px;
-
-}
-
-.depoimentos-img {
-    display: block;
-    margin: 0 auto;
-    box-shadow: 3px 3px 0 #000;
-    margin-bottom: 30px;
-}
-
-.depoimentos-texto {
-    line-height: 24px;
-    margin-bottom: 30px;
-}
-
-.depoimentos-texto::before {
-    background: url('Assets/img/aspas.png') no-repeat;
-    content: '';
-    display: inline-block;
-    width: 25px;
-    height: 23px;
-    margin-right: 5px;
-}
-
-.depoimentos-pessoa {
-    text-align: center;
-    font-weight: bold;
-    font-style: italic;
-}

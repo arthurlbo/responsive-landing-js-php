@@ -4,31 +4,33 @@
     margin-right: -15px;
     padding: 40px 15px 40px 15px;
     box-shadow: 0 3px 5px #989898;
+
+    &-grupo {
+        margin-bottom: 15px;
+    }
+    
+    &-campo {
+        width: 100%;
+        border: 1px solid #c4c4c4;
+        border-radius: 5px;
+        padding: 10px 5px;
+    }
+    
+    &-label {
+        color: #343434;
+    }
+    
+    &-botao {
+        border: 3px solid $cor-principal;
+        border-radius: 300px;
+        background-color: #fff;
+        color: $cor-principal;
+        padding: 5px 20px;
+        cursor: pointer;
+        display: block;
+        margin: 0 auto;
+        font-weight: bold;
+    }
 }
 
-.formulario-grupo {
-    margin-bottom: 15px;
-}
 
-.formulario-campo {
-    width: 100%;
-    border: 1px solid #c4c4c4;
-    border-radius: 5px;
-    padding: 10px 5px;
-}
-
-.formulario-label {
-    color: #343434;
-}
-
-.formulario-botao {
-    border: 3px solid $cor-principal;
-    border-radius: 300px;
-    background-color: #fff;
-    color: $cor-principal;
-    padding: 5px 20px;
-    cursor: pointer;
-    display: block;
-    margin: 0 auto;
-    font-weight: bold;
-}
