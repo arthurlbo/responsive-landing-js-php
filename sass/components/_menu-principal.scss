@@ -30,12 +30,12 @@
 .opcoes-menu-item {
     text-decoration: none;
     font-weight: bold;
-    color: #343434;
+    color: $cor-leitura;
     display: block;
     margin-bottom: 10px;
     font-size: 18px;
 }
 
 .opcoes-menu-item-atual {
-    color: #f44242;
+    color: $cor-principal;
 }
