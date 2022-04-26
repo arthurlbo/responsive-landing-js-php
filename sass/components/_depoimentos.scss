@@ -20,7 +20,6 @@
     &-texto {
         line-height: 24px;
         margin-bottom: 30px;
-    }
 
     &-texto::before{
         background: url('Assets/img/aspas.png') no-repeat;
@@ -29,6 +28,7 @@
         width: 25px;
         height: 23px;
         margin-right: 5px;
+    }
     }
 
     &-pessoa {
