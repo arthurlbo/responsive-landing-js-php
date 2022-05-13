@@ -1,14 +1,19 @@
 .servicos {
     padding: 30px 0;
-
+    overflow: auto;
 
     &-item {
-    text-align: center;
-    padding: 0 15px;
-    margin-bottom: 50px;
+        text-align: center;
+        padding: 0 15px;
+        margin-bottom: 50px;
+
+        @media (min-width: $breakpoint-md) {
+            width: 33.333%;
+            float: left;
+        }
     }
 
     &-texto {
-    color: $cor-leitura;
+        color: $cor-leitura;
     }
 }

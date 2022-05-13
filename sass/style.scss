@@ -1,5 +1,6 @@
 //abstracts
 @import 'abstracts/cores'; 
+@import 'abstracts/breakpoints';
 
 //base
 @import 'base/normalize';
@@ -7,6 +8,7 @@
 @import 'base/meu-reset';
 
 //layout
+@import 'layout/container';
 @import 'layout/cabecalho';
 @import 'layout/rodape';
 

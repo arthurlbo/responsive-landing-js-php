@@ -1,21 +1,24 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        <link rel="stylesheet" href="style.css">
-        <title>Sobre nós</title>
-    </head>
 
-   <body>
-        <header class="cabecalho">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link rel="stylesheet" href="style.css">
+    <title>Sobre nós</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="container">
+
             <a href="index.html" class="logo">
                 <h1>Logo</h1>
             </a>
 
             <nav class="opcoes-menu">
-                <button class="opcoes-menu-botao opcoes-menu-botao-fechar">Abrir/fechar opcoes</button>
+            <!--<button class="opcoes-menu-botao opcoes-menu-botao-fechar">Abrir/fechar opcoes</button>-->
                 <ul class="opcoes-menu-lista">
                     <li>
                         <a href="index.html" class="opcoes-menu-item ">Home</a>
@@ -34,55 +37,61 @@
                     </li>
                 </ul>
             </nav>
+        </div>
+    </header>
+
+    <main>
+        <header class="titulo-principal">
+            <h1 class="titulo">Contato</h1>
         </header>
 
-        <main>
-            <header class="titulo-principal">
-                <h1 class="titulo">Contato</h1>
-            </header>
+        <section class="pagina-conteudo container">
+            <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis iure odio illo</p>
 
-            <section class="pagina-conteudo">
-                <p>Lorem ipsum dolor sit amet consectetur adipisicing elit. Veritatis iure odio illo</p>
+            <form class="formulario" action="#">
+                <div class="formulario-grupo">
 
-                <form class="formulario" action="#">
-                    <div class="formulario-grupo">
-
-                        <label class="formulario-label" for="nome">Nome: </label><br>
-                        <input class="formulario-campo" type="text" name="Nome" id="nome" required>
-                    </div>
-
-                    <div class="formulario-grupo">
-
-                        <label class="formulario-label" for="email">E-mail: </label><br>
-                        <input class="formulario-campo" type="email" name="email" id="email" required>
-                    </div>
-
-                    <div class="formulario-grupo">
-
-                        <label class="formulario-label" for="mensagem">Mensagem: </label><br>
-                        <textarea class="formulario-campo" name="mensagem" id="mensagem" cols="30" rows="10" required></textarea>
-                    </div>
-
-                    <input class="formulario-botao" type="submit" value="enviar" id="enviar">
-
-                </form>
-
-                <p>
-                    Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias ipsa rem <br> Vero aliquam voluptates facilis earum ducimus, accusantium, qui at nulla totam reprehenderit
-                </p>
-            
-                <div class="mapa">
-                    <iframe src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3602.3176546653995!2d-49.2495232854909!3d-25.461066440354667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce4fde860fb43%3A0xa59bdb32148a9686!2sAdam%20Robo!5e0!3m2!1spt-BR!2sbr!4v1650462932746!5m2!1spt-BR!2sbr" width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy" referrerpolicy="no-referrer-when-downgrade"></iframe>
+                    <label class="formulario-label" for="nome">Nome: </label><br>
+                    <input class="formulario-campo" type="text" name="Nome" id="nome" required>
                 </div>
-                
 
-            </section>
+                <div class="formulario-grupo">
 
+                    <label class="formulario-label" for="email">E-mail: </label><br>
+                    <input class="formulario-campo" type="email" name="email" id="email" required>
+                </div>
 
-        </main>
+                <div class="formulario-grupo">
 
-        <footer class="rodape">
-            <div class="rodape-cima">
+                    <label class="formulario-label" for="mensagem">Mensagem: </label><br>
+                    <textarea class="formulario-campo" name="mensagem" id="mensagem" cols="30" rows="10"
+                        required></textarea>
+                </div>
+
+                <input class="formulario-botao" type="submit" value="enviar" id="enviar">
+
+            </form>
+
+            <p>
+                Lorem ipsum dolor sit amet consectetur, adipisicing elit. Alias ipsa rem <br> Vero aliquam voluptates
+                facilis earum ducimus, accusantium, qui at nulla totam reprehenderit
+            </p>
+
+        </section>
+
+        <div class="mapa">
+            <iframe
+                src="https://www.google.com/maps/embed?pb=!1m18!1m12!1m3!1d3602.3176546653995!2d-49.2495232854909!3d-25.461066440354667!2m3!1f0!2f0!3f0!3m2!1i1024!2i768!4f13.1!3m3!1m2!1s0x94dce4fde860fb43%3A0xa59bdb32148a9686!2sAdam%20Robo!5e0!3m2!1spt-BR!2sbr!4v1650462932746!5m2!1spt-BR!2sbr"
+                width="600" height="450" style="border:0;" allowfullscreen="" loading="lazy"
+                referrerpolicy="no-referrer-when-downgrade"></iframe>
+        </div>
+
+    </main>
+
+    <footer class="rodape">
+        <div class="rodape-cima">
+            <div class="container">
+
                 <div class="coluna">
                     <a href="index.html" class="logo logo-branco">
                         <h2>Logo</h2>
@@ -100,36 +109,16 @@
                     <h2 class="rodape-titulo">Sociais</h2>
                     <ul class="lista-links">
                         <li>
-                            <a
-                                class="lista-links-item"
-                                href="https://twitter.com/explore"
-                                target="_blank"
-                                >Twitter</a
-                            >
+                            <a class="lista-links-item" href="https://twitter.com/explore" target="_blank">Twitter</a>
                         </li>
                         <li>
-                            <a
-                                class="lista-links-item"
-                                href="https://www.facebook.com/"
-                                target="_blank"
-                                >Facebook</a
-                            >
+                            <a class="lista-links-item" href="https://www.facebook.com/" target="_blank">Facebook</a>
                         </li>
                         <li>
-                            <a
-                                class="lista-links-item"
-                                href="https://www.Instagram.com/"
-                                target="_blank"
-                                >Instagram</a
-                            >
+                            <a class="lista-links-item" href="https://www.Instagram.com/" target="_blank">Instagram</a>
                         </li>
                         <li>
-                            <a
-                                class="lista-links-item"
-                                href="https://www.Youtube.com/"
-                                target="_blank"
-                                >Youtube</a
-                            >
+                            <a class="lista-links-item" href="https://www.Youtube.com/" target="_blank">Youtube</a>
                         </li>
                     </ul>
                 </div>
@@ -139,35 +128,29 @@
 
                     <ul class="lista-links">
                         <li>
-                            <a class="lista-links-item" href="index.html"
-                                >Home</a
-                            >
+                            <a class="lista-links-item" href="index.html">Home</a>
                         </li>
 
                         <li>
-                            <a class="lista-links-item" href="sobre.html"
-                                >Sobre nós</a
-                            >
+                            <a class="lista-links-item" href="sobre.html">Sobre nós</a>
                         </li>
 
                         <li>
-                            <a class="lista-links-item" href="portifolio.html"
-                                >Portifolio</a
-                            >
+                            <a class="lista-links-item" href="portifolio.html">Portifolio</a>
                         </li>
 
                         <li>
-                            <a class="lista-links-item" href="contato.html"
-                                >Contato</a
-                            >
+                            <a class="lista-links-item" href="contato.html">Contato</a>
                         </li>
                     </ul>
                 </div>
             </div>
+        </div>
 
-            <div class="rodape-baixo">
-                <h3>Realizado por Arthur para aprendizado</h3>
-            </div>
-        </footer>
-    </body>
+        <div class="rodape-baixo">
+            <h3>Realizado por Arthur para aprendizado</h3>
+        </div>
+    </footer>
+</body>
+
 </html>

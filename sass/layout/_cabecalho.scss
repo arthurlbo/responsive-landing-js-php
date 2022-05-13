@@ -1,4 +1,23 @@
 .cabecalho {
     background-color: #fff;
     padding: 25px;
+    position: fixed;
+    width: 100%;
+    align-items: center;
+
+    @media (min-width: $breakpoint-md){
+        min-height: 100px;
+
+        .logo{
+            float: left;
+        }
+        .opcoes-menu-lista{
+            float: right;
+            display: flex;
+            flex-direction: row;
+            gap: 20px;
+        }
+    }
+    
+
 }
