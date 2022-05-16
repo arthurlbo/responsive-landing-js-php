@@ -1,4 +1,8 @@
-.sobre-img {
-    display: block;
-    margin: 0 auto;
+.pagina-sobre {
+    .pagina-conteudo {
+        @media (min-width: $breakpoint-md) {
+            padding-right: 150px;
+            padding-left: 150px;
+        }
+    }
 }
