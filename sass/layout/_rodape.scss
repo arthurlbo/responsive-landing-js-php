@@ -7,6 +7,7 @@
         background-size: cover;
         background-color: #272525;
         padding: 15px;
+        overflow: auto;
     }
 
     &-baixo {
@@ -43,5 +44,23 @@
         content: '>';
         margin-right: 8px;
         color: $cor-principal;
+    }
+
+    @media (min-width: $breakpoint-md) {
+        &-cima {
+            background-image: url('Assets/img/rodape-bg-md.jpg');
+        }
+
+        .coluna {
+            float: left;
+            width: 33.333%;
+            padding: 0 15px;
+        }
+    }
+
+    @media (min-width: $breakpoint-xl) {
+        &-cima {
+            background-image: url('Assets/img/rodape-bg-xl.jpg');
+        }
     }
 }
