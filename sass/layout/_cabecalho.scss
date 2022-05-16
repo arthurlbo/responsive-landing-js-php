@@ -5,19 +5,21 @@
     width: 100%;
     align-items: center;
 
-    @media (min-width: $breakpoint-md){
-        min-height: 100px;
+    @media (min-width: $breakpoint-md) {
+        height: auto;
 
-        .logo{
+        .logo {
             float: left;
+            margin-top: 8.5px;
         }
-        .opcoes-menu-lista{
+        .opcoes-menu {
             float: right;
-            display: flex;
-            flex-direction: row;
-            gap: 20px;
+            margin-top: 8.5px;
+
+            &-lista {
+                display: flex;
+                margin-bottom: 0;
+            }
         }
     }
-    
-
 }

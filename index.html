@@ -1,207 +1,172 @@
 <!DOCTYPE html>
 <html lang="pt-br">
-    <head>
-        <meta charset="UTF-8" />
-        <meta http-equiv="X-UA-Compatible" content="IE=edge" />
-        <meta name="viewport" content="width=device-width, initial-scale=1.0" />
-        
-        <link rel="stylesheet" href="style.css" />
-        <title>Projeto Udemy</title>
-    </head>
 
-    <body>
-        <header class="cabecalho">
-            <div class="container">
+<head>
+    <meta charset="UTF-8" />
+    <meta http-equiv="X-UA-Compatible" content="IE=edge" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
 
-                <a href="index.html" class="logo">
-                    <h1>Logo</h1>
-                </a>
-                
-                <nav class="opcoes-menu">
-                    <!--<button class="opcoes-menu-botao opcoes-menu-botao-fechar">Abrir/fechar opcoes</button>-->
-                    <ul class="opcoes-menu-lista">
-                        <li>
-                            <a href="index.html" class="opcoes-menu-item opcoes-menu-item-atual">Home</a>
-                        </li>
-                
-                        <li>
-                            <a href="sobre.html" class="opcoes-menu-item">Sobre nós</a>
-                        </li>
-                
-                        <li>
-                            <a href="portifolio.html" class="opcoes-menu-item">Portifolio</a>
-                        </li>
-                
-                        <li>
-                            <a href="contato.html" class="opcoes-menu-item">Contato</a>
-                        </li>
-                    </ul>
-                </nav>
-            </div>
+    <link rel="stylesheet" href="style.css" />
+    <title>Projeto Udemy</title>
+</head>
+
+<body>
+    <header class="cabecalho">
+        <div class="container">
+
+            <a href="index.html" class="logo"></a>
+
+            <nav class="opcoes-menu opcoes-menu-fechado">
+                <button class="opcoes-menu-botao ">Abrir/fechar opcoes</button>
+                <ul class="opcoes-menu-lista">
+                    <li>
+                        <a href="index.html" class="opcoes-menu-item opcoes-menu-item-atual">Home</a>
+                    </li>
+
+                    <li>
+                        <a href="sobre.html" class="opcoes-menu-item">Sobre nós</a>
+                    </li>
+
+                    <li>
+                        <a href="portifolio.html" class="opcoes-menu-item">Portifolio</a>
+                    </li>
+
+                    <li>
+                        <a href="contato.html" class="opcoes-menu-item">Contato</a>
+                    </li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main>
+        <header class="cabecalho-home">
+            <h2 class="cabecalho-home-titulo">Texto grande aqui</h2>
+            <p class="cabecalho-home-subtitulo">Texto menor aqui</p>
+            <a class="cabecalho-home-role" href="#servicos"> Role para ver mais </a>
         </header>
 
-        <main>
-            <header class="cabecalho-home">
-                <h2 class="cabecalho-home-titulo">Texto grande aqui</h2>
-                <p class="cabecalho-home-subtitulo">Texto menor aqui</p>
-                <a class="cabecalho-home-role" href="#servicos"> Role para ver mais </a>
-            </header>
+        <section id="servicos" class="servicos">
+            <!--Seção serviços-->
+            <div class="container">
 
-            <section id="servicos" class="servicos">
-                <!--Seção serviços-->
-                <div class="container">
+                <h2 class="home-titulo">O que fazemos</h2>
 
-                    <h2 class="home-titulo">O que fazemos</h2>
-    
-                    <section class="servicos-item">
-                        <img
-                            src="Assets/img/icone-desenvolvimento-web.png"
-                            alt="Imagem desenvolvimento web"
-                        />
-                        <h3>Desenvolvimento Web</h3>
-                        <p class="servicos-texto">
-                            Lorem ipsum dolor, sit amet consectetur adipisicing
-                            elit. Accusantium amet ex reici
-                        </p>
-                    </section>
-    
-                    <section  class="servicos-item">
-                        <img
-                            src="Assets/img/icone-carrinho-compras.png"
-                            alt="Imagem e-commerce"
-                        />
-                        <h3>E-commerce</h3>
-                        <p  class="servicos-texto">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit. Pariatur possimus blandit
-                        </p>
-                    </section>
-    
-                    <section  class="servicos-item">
-                        <img src="Assets/img/icone-cafe.png" alt="Imagem cafe" />
-                        <h3>Café</h3>
-                        <p  class="servicos-texto">
-                            Lorem ipsum dolor sit amet, consectetur adipisicing
-                            elit. Autem consequatur fugiat
-                        </p>
-                    </section>
-                </div>
-            </section>
-            <!--fim seção serviços-->
+                <section class="servicos-item">
+                    <img src="Assets/img/icone-desenvolvimento-web.png" alt="Imagem desenvolvimento web" />
+                    <h3>Desenvolvimento Web</h3>
+                    <p class="servicos-texto">
+                        Lorem ipsum dolor, sit amet consectetur adipisicing
+                        elit. Accusantium amet ex reici
+                    </p>
+                </section>
 
-            <section class="depoimentos">
-                <!--Seção depoimentos-->
-                <div class="container">
+                <section class="servicos-item">
+                    <img src="Assets/img/icone-carrinho-compras.png" alt="Imagem e-commerce" />
+                    <h3>E-commerce</h3>
+                    <p class="servicos-texto">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Pariatur possimus blandit
+                    </p>
+                </section>
 
-                    <h2 class="home-titulo home-titulo-branco">O que falam de nós</h2>
-    
-                    <section class="depoimentos-item">
-                        <img class="depoimentos-img"
-                            src="Assets/img/depoimentos/pessoa-1.jpg"
-                            alt="Imagem depoimento"
-                        />
-                        <p class="depoimentos-texto">
-                            Lorem ipsum, dolor sit amet consectetur adipisicing elit. Corrupti error libero est culpa sunt, nesciunt excepturi repellat esse? Officia, nemo minus. Numquam nulla animi placeat deleniti quidem autem facilis tempora!
-                        </p>
+                <section class="servicos-item">
+                    <img src="Assets/img/icone-cafe.png" alt="Imagem cafe" />
+                    <h3>Café</h3>
+                    <p class="servicos-texto">
+                        Lorem ipsum dolor sit amet, consectetur adipisicing
+                        elit. Autem consequatur fugiat
+                    </p>
+                </section>
+            </div>
+        </section>
+        <!--fim seção serviços-->
 
-                        <p class="depoimentos-pessoa">Nome da pessoa - Cargo</p>
-
-                    </section>
-                </div>
-            </section>
+        <section class="depoimentos">
             <!--Seção depoimentos-->
-        </main>
+            <div class="container">
 
-        <footer class="rodape">
-            <div class="rodape-cima">
-                <div class="container">
-                    
-                    <div class="coluna">
-                        <a href="index.html" class="logo logo-branco">
-                            <h2>Logo</h2>
-                        </a>
-    
-                        <p>
-                            Lorem ipsum dolor sit, amet consectetur adipisicing
-                            elit. Officiis aut animi a nam, commodi numquam quisquam
-                            eveniet nostrum voluptas ipsa! Non ducimus similique id
-                            veniam, quia voluptas fugiat sapiente odit.
-                        </p>
-                    </div>
-    
-                    <div class="coluna">
-                        <h2 class="rodape-titulo">Sociais</h2>
-                        <ul class="lista-links">
-                            <li>
-                                <a
-                                    class="lista-links-item"
-                                    href="https://twitter.com/explore"
-                                    target="_blank"
-                                    >Twitter</a
-                                >
-                            </li>
-                            <li>
-                                <a
-                                    class="lista-links-item"
-                                    href="https://www.facebook.com/"
-                                    target="_blank"
-                                    >Facebook</a
-                                >
-                            </li>
-                            <li>
-                                <a
-                                    class="lista-links-item"
-                                    href="https://www.Instagram.com/"
-                                    target="_blank"
-                                    >Instagram</a
-                                >
-                            </li>
-                            <li>
-                                <a
-                                    class="lista-links-item"
-                                    href="https://www.Youtube.com/"
-                                    target="_blank"
-                                    >Youtube</a
-                                >
-                            </li>
-                        </ul>
-                    </div>
-    
-                    <div class="coluna">
-                        <h2 class="rodape-titulo">Links</h2>
-    
-                        <ul class="lista-links">
-                            <li>
-                                <a class="lista-links-item" href="index.html"
-                                    >Home</a
-                                >
-                            </li>
-    
-                            <li>
-                                <a class="lista-links-item" href="sobre.html"
-                                    >Sobre nós</a
-                                >
-                            </li>
-    
-                            <li>
-                                <a class="lista-links-item" href="portifolio.html"
-                                    >Portifolio</a
-                                >
-                            </li>
-    
-                            <li>
-                                <a class="lista-links-item" href="contato.html"
-                                    >Contato</a
-                                >
-                            </li>
-                        </ul>
-                    </div>
+                <h2 class="home-titulo home-titulo-branco">O que falam de nós</h2>
+
+                <section class="depoimentos-item">
+                    <img class="depoimentos-img" src="Assets/img/depoimentos/pessoa-1.jpg" alt="Imagem depoimento" />
+                    <p class="depoimentos-texto">
+                        Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure corporis commodi repudiandae
+                        voluptate enim odio maxime nobis, voluptates id ab amet culpa error quas accusamus voluptatem
+                        fugit rem magni iste!
+                    </p>
+
+                    <p class="depoimentos-pessoa">Nome da pessoa - Cargo</p>
+
+                </section>
+            </div>
+        </section>
+        <!--Seção depoimentos-->
+    </main>
+
+    <footer class="rodape">
+        <div class="rodape-cima">
+            <div class="container">
+
+                <div class="coluna">
+                    <a href="index.html" class="logo logo-branco">
+                        <h2>Logo</h2>
+                    </a>
+
+                    <p>
+                        Lorem ipsum dolor sit, amet consectetur adipisicing
+                        elit. Officiis aut animi a nam, commodi numquam quisquam
+                        eveniet nostrum voluptas ipsa! Non ducimus similique id
+                        veniam, quia voluptas fugiat sapiente odit.
+                    </p>
+                </div>
+
+                <div class="coluna">
+                    <h2 class="rodape-titulo">Sociais</h2>
+                    <ul class="lista-links">
+                        <li>
+                            <a class="lista-links-item" href="https://twitter.com/explore" target="_blank">Twitter</a>
+                        </li>
+                        <li>
+                            <a class="lista-links-item" href="https://www.facebook.com/" target="_blank">Facebook</a>
+                        </li>
+                        <li>
+                            <a class="lista-links-item" href="https://www.Instagram.com/" target="_blank">Instagram</a>
+                        </li>
+                        <li>
+                            <a class="lista-links-item" href="https://www.Youtube.com/" target="_blank">Youtube</a>
+                        </li>
+                    </ul>
+                </div>
+
+                <div class="coluna">
+                    <h2 class="rodape-titulo">Links</h2>
+
+                    <ul class="lista-links">
+                        <li>
+                            <a class="lista-links-item" href="index.html">Home</a>
+                        </li>
+
+                        <li>
+                            <a class="lista-links-item" href="sobre.html">Sobre nós</a>
+                        </li>
+
+                        <li>
+                            <a class="lista-links-item" href="portifolio.html">Portifolio</a>
+                        </li>
+
+                        <li>
+                            <a class="lista-links-item" href="contato.html">Contato</a>
+                        </li>
+                    </ul>
                 </div>
             </div>
+        </div>
 
-            <div class="rodape-baixo">
-                <h3>Realizado por Arthur para aprendizado</h3>
-            </div>
-        </footer>
-    </body>
+        <div class="rodape-baixo">
+            <h3>Realizado por Arthur para aprendizado</h3>
+        </div>
+    </footer>
+</body>
+
 </html>
