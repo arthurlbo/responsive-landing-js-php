@@ -33,6 +33,13 @@
         font-weight: bold;
     }
 
+    label.error{
+        border-left: 3px solid $cor-principal;
+        color: $cor-principal;
+        padding-left: 4px;
+        margin-left: 3px;
+    }
+
     @media (min-width: $breakpoint-md){
         padding-bottom: 0;
         
