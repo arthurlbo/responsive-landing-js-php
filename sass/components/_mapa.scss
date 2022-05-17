@@ -3,6 +3,7 @@
     padding-bottom: 100%;
     position: relative;
     margin: 0 -15px -25px -15px;
+    overflow: hidden;
 
     & iframe {
         width: 100% !important;
@@ -10,7 +11,18 @@
         position: absolute;
         top: 0;
         left: 0;
-        overflow: hidden;
+    }
+
+    @media (min-width: 450px){
+        padding-bottom: 60%;
+    }
+
+    @media (min-width: $breakpoint-md){
+        padding-bottom: 40%;
+    }
+
+    @media (min-width: $breakpoint-lg){
+        padding-bottom: 25%;
     }
 }
 

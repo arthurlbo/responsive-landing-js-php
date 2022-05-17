@@ -1,23 +1,78 @@
 .lista-trabalhos {
     list-style: none;
     padding: 0;
-}
+    margin-top: 80px;
 
-.lista-trabalhos-item {
-    margin-left: -15px;
-    margin-right: -15px;
-    margin-bottom: 50px;
-}
+    &-item {
+        margin-left: -15px;
+        margin-right: -15px;
+        margin-bottom: 50px;
+        position: relative;
+    }
 
-.lista-trabalhos-item a {
-    text-decoration: none;
+    &-item a {
+        text-decoration: none;
+    }
 
-}
+    &-img {
+        width: 100%;
+        height: auto;
+        display: block;
+    }
 
-.lista-trabalhos-titulo {
-    color: #000;
-    font-size: 18px;
-    margin-left: 15px;
-    border-left: 1px solid #000;
-    padding-left: 10px;
+    &-titulo {
+        color: #000;
+        font-size: 18px;
+        margin-left: 15px;
+        border-left: 1px solid #000;
+        padding-left: 10px;
+    }
+
+    @media (min-width: $breakpoint-md) {
+        &-item {
+            margin: 0;
+            float: left;
+            width: 50%;
+            background-color: $cor-principal;
+            overflow: hidden;
+            &:hover{
+                .lista-trabalhos-img{
+                    opacity: 0.1;
+                    transform: scale(1.4);
+                }
+
+                .lista-trabalhos-titulo{
+                    opacity: 1;
+                }
+            }
+        }
+
+        &-img {
+            opacity: 1;
+            transition: all 200ms ease;
+        }
+
+        &-titulo {
+            color: #fff;
+            padding: 0;
+            margin: 0;
+            border: none;
+            text-align: center;
+            position: absolute;
+            top: 40%;
+            left: 0;
+            width: 100%;
+            background: url('../../Assets/img/icone-olho.png') no-repeat bottom center;
+            padding-bottom: 35px;
+            font-size: 22px;
+            opacity: 0;
+            transition: opacity 200ms ease;
+        }
+    }
+
+    @media (min-width: $breakpoint-lg) {
+        &-item {
+            width: 33.333%;
+        }
+    }
 }
