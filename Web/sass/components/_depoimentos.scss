@@ -1,6 +1,6 @@
 .depoimentos {
     background-color: $cor-principal;
-    background-image: url('Assets/img/cabecalho-pagina-bg.jpg');
+    background-image: url('../../../Assets/img/cabecalho-pagina-bg.jpg');
     background-attachment: fixed;
     color: #fff;
     padding: 30px 0;
@@ -24,7 +24,7 @@
     }
 
     &-texto::before {
-        background: url('Assets/img/aspas.png') no-repeat;
+        background: url('../../../Assets/img/aspas.png') no-repeat;
         content: '';
         display: inline-block;
         width: 25px;

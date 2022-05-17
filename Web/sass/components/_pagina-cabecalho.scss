@@ -5,7 +5,7 @@
 .titulo {
     &-principal {
         background-color: $cor-principal;
-        background-image: url(Assets/img/cabecalho-pagina-bg.jpg);
+        background-image: url('../../../Assets/img/cabecalho-pagina-bg.jpg');
         background-attachment: fixed;
         color: #fff;
         padding-bottom: 40px;

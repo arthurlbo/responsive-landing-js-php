@@ -2,7 +2,7 @@
     color: white;
 
     &-cima {
-        background-image: url('Assets/img/rodape-bg.jpg');
+        background-image: url('../../../Assets/img/rodape-bg.jpg');
         background-repeat: no-repeat;
         background-size: cover;
         background-color: #272525;
@@ -48,7 +48,7 @@
 
     @media (min-width: $breakpoint-md) {
         &-cima {
-            background-image: url('Assets/img/rodape-bg-md.jpg');
+            background-image: url('../../../Assets/img/rodape-bg-md.jpg');
         }
 
         .coluna {
@@ -60,7 +60,7 @@
 
     @media (min-width: $breakpoint-xl) {
         &-cima {
-            background-image: url('Assets/img/rodape-bg-xl.jpg');
+            background-image: url('../../../Assets/img/rodape-bg-xl.jpg');
         }
     }
 }
