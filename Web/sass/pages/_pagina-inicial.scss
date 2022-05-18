@@ -1,5 +1,5 @@
 .cabecalho-home {
-    background: url("../../../Assets/img/cabecalho-home-bg.jpg") #000 no-repeat;
+    background: url('../../../Assets/img/cabecalho-home-bg.jpg') #000 no-repeat;
     background-size: cover;
     color: #fff;
     padding: 50px 0;
@@ -16,12 +16,14 @@
     }
 
     @media (min-width: $breakpoint-xl) {
-        background: url("../../../Assets/img/cabecalho-home-bg-xl.jpg") #000 no-repeat;
+        background: url('../../../Assets/img/cabecalho-home-bg-xl.jpg') #000
+            no-repeat;
         background-size: cover;
     }
 
     @media (min-width: $breakpoint-md) {
-        background: url("../../../Assets/img/cabecalho-home-bg-md.jpg") #000 no-repeat;
+        background: url('../../../Assets/img/cabecalho-home-bg-md.jpg') #000
+            no-repeat;
         background-size: cover;
     }
 
@@ -40,7 +42,8 @@
         &-role {
             display: block;
             position: absolute;
-            background: url('../../../Assets/img/icone-mouse.png') no-repeat center right;
+            background: url('../../../Assets/img/icone-mouse.png') no-repeat
+                center right;
             color: #fff;
             bottom: 10px;
             left: 50%;

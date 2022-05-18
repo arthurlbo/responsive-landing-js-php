@@ -13,17 +13,15 @@
         left: 0;
     }
 
-    @media (min-width: 450px){
+    @media (min-width: 450px) {
         padding-bottom: 60%;
     }
 
-    @media (min-width: $breakpoint-md){
+    @media (min-width: $breakpoint-md) {
         padding-bottom: 40%;
     }
 
-    @media (min-width: $breakpoint-lg){
+    @media (min-width: $breakpoint-lg) {
         padding-bottom: 25%;
     }
 }
-
-

@@ -6,21 +6,37 @@
     margin: 80px 0;
     box-shadow: 0 3px 5px #989898;
 
+    &-erro {
+        background: #f00;
+        color: white;
+        padding: 10px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+    }
+
+    &-sucesso {
+        background: #00a91e;
+        color: white;
+        padding: 10px;
+        margin-bottom: 20px;
+        border-radius: 5px;
+    }
+
     &-grupo {
         margin-bottom: 15px;
     }
-    
+
     &-campo {
         width: 100%;
         border: 1px solid #c4c4c4;
         border-radius: 5px;
         padding: 10px 5px;
     }
-    
+
     &-label {
         color: #343434;
     }
-    
+
     &-botao {
         border: 3px solid $cor-principal;
         border-radius: 300px;
@@ -33,37 +49,34 @@
         font-weight: bold;
     }
 
-    label.error{
+    label.error {
         border-left: 3px solid $cor-principal;
         color: $cor-principal;
         padding-left: 4px;
         margin-left: 3px;
     }
 
-    @media (min-width: $breakpoint-md){
+    @media (min-width: $breakpoint-md) {
         padding-bottom: 0;
-        
-        &-grupo{
+
+        &-grupo {
             float: left;
             width: 100%;
         }
 
-        &-grupo-coluna-esq{
+        &-grupo-coluna-esq {
             width: 50%;
             padding-right: 15px;
         }
 
-        &-grupo-coluna-dir{
+        &-grupo-coluna-dir {
             width: 50%;
             padding-left: 15px;
         }
 
-        &-botao{
+        &-botao {
             font-size: 20px;
             transform: translateY(-40px);
         }
-        
     }
 }
-
-

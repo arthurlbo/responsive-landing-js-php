@@ -1,8 +1,7 @@
-<?php 
-    $contador = 1;
+<?php
+$contador = 1;
 
-    while($contador <= 10){
-        echo $contador;
-        $contador++;
-    }
-?>
+while ($contador <= 10) {
+    echo $contador;
+    $contador++;
+}

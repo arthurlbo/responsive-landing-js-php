@@ -1,5 +1,5 @@
 .logo {
-    background: url("../../../Assets/img/logotipo-preto.png");
+    background: url('../../../Assets/img/logotipo-preto.png');
     background-repeat: no-repeat;
     display: block;
     text-indent: -9999px;
@@ -8,7 +8,7 @@
     margin: 0;
 
     &-branco {
-        background-image: url("../../../Assets/img/logotipo-branco.png");
+        background-image: url('../../../Assets/img/logotipo-branco.png');
         padding-bottom: 30px;
     }
 }

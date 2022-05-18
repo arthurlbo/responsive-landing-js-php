@@ -1,5 +1,5 @@
-<?php include('src/cabecalho.php'); ?>
-        
+<?php include 'src/cabecalho.php';?>
+
         <header class="cabecalho-home">
             <h2 class="cabecalho-home-titulo">Texto grande aqui</h2>
             <p class="cabecalho-home-subtitulo">Texto menor aqui</p>
@@ -7,14 +7,14 @@
         </header>
 
         <section id="servicos" class="servicos">
-            <!--Seção serviços-->
             <div class="container">
-
                 <h2 class="home-titulo">O que fazemos</h2>
 
                 <section class="servicos-item">
                     <img src="../Assets/img/icone-desenvolvimento-web.png" alt="Imagem desenvolvimento web" />
+
                     <h3>Desenvolvimento Web</h3>
+
                     <p class="servicos-texto">
                         Lorem ipsum dolor, sit amet consectetur adipisicing
                         elit. Accusantium amet ex reici
@@ -23,7 +23,9 @@
 
                 <section class="servicos-item">
                     <img src="../Assets/img/icone-carrinho-compras.png" alt="Imagem e-commerce" />
+
                     <h3>E-commerce</h3>
+
                     <p class="servicos-texto">
                         Lorem ipsum dolor sit amet, consectetur adipisicing
                         elit. Pariatur possimus blandit
@@ -32,7 +34,9 @@
 
                 <section class="servicos-item">
                     <img src="../Assets/img/icone-cafe.png" alt="Imagem cafe" />
+
                     <h3>Café</h3>
+
                     <p class="servicos-texto">
                         Lorem ipsum dolor sit amet, consectetur adipisicing
                         elit. Autem consequatur fugiat
@@ -40,19 +44,16 @@
                 </section>
             </div>
         </section>
-        <!--fim seção serviços-->
 
         <section class="depoimentos">
-            <!--Seção depoimentos-->
             <div class="container">
                 <h2 class="home-titulo home-titulo-branco">O que falam de nós</h2>
 
                 <div class="depoimentos-caixa">
-
-
                     <section class="depoimentos-item">
                         <img class="depoimentos-img" src="../Assets/img/depoimentos/pessoa-1.jpg"
                             alt="Imagem depoimento" />
+
                         <p class="depoimentos-texto">
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure corporis commodi repudiandae
                             voluptate enim odio maxime nobis, voluptates id ab amet culpa error quas accusamus
@@ -67,6 +68,7 @@
                     <section class="depoimentos-item">
                         <img class="depoimentos-img" src="../Assets/img/depoimentos/pessoa-1.jpg"
                             alt="Imagem depoimento" />
+
                         <p class="depoimentos-texto">
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure corporis commodi repudiandae
                             voluptate enim odio maxime nobis, voluptates id ab amet culpa error quas accusamus
@@ -81,6 +83,7 @@
                     <section class="depoimentos-item">
                         <img class="depoimentos-img" src="../Assets/img/depoimentos/pessoa-1.jpg"
                             alt="Imagem depoimento" />
+
                         <p class="depoimentos-texto">
                             Lorem ipsum, dolor sit amet consectetur adipisicing elit. Iure corporis commodi repudiandae
                             voluptate enim odio maxime nobis, voluptates id ab amet culpa error quas accusamus
@@ -92,9 +95,7 @@
                     </section>
 
                 </div>
-
-
             </div>
         </section>
-
- <?php include('src/rodape.php'); ?>
+        
+ <?php include 'src/rodape.php';?>

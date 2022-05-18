@@ -1,14 +1,10 @@
-
 </main>
-
     <footer class="rodape">
         <div class="rodape-cima">
             <div class="container">
 
                 <div class="coluna">
-                    <a href="index.php" class="logo logo-branco">
-                       
-                    </a>
+                    <a href="index.php" class="logo logo-branco"></a>
 
                     <p>
                         Lorem ipsum dolor sit, amet consectetur adipisicing
@@ -20,6 +16,7 @@
 
                 <div class="coluna">
                     <h2 class="rodape-titulo">Sociais</h2>
+
                     <ul class="lista-links">
                         <li>
                             <a class="lista-links-item" href="https://twitter.com/explore" target="_blank">Twitter</a>
@@ -49,7 +46,7 @@
                         </li>
 
                         <li>
-                            <a class="lista-links-item" href="portifolio.php">Portifolio</a>
+                            <a class="lista-links-item" href="portfolio.php">Portifolio</a>
                         </li>
 
                         <li>
@@ -62,16 +59,16 @@
 
         <div class="rodape-baixo">
             <h3>Realizado por Arthur para aprendizado</h3>
+
         </div>
     </footer>
 
-    <script src="https://code.jquery.com/jquery-3.6.0.js"
+        <script src="https://code.jquery.com/jquery-3.6.0.js"
         integrity="sha256-H+K7U5CnXl1h5ywQfKtSj8PCmoN9aaq30gDh27Xc0jk=" crossorigin="anonymous"></script>
-    <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
-    <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
-    <script src="Js/main.js"></script>
-</body>
+        <script type="text/javascript" src="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.min.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.umd.js"></script>
+        <script src="https://cdn.jsdelivr.net/npm/jquery-validation@1.19.3/dist/jquery.validate.js"></script>
+        <script src="Js/main.js"></script>
 
+    </body>
 </html>
-
-

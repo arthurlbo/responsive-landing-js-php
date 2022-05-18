@@ -28,24 +28,23 @@ $('document').ready(() => {
 
             email: {
                 required: true,
-                email: true
+                email: true,
             },
 
-            mensagem: 'required'
+            mensagem: 'required',
         },
 
         messages: {
             nome: {
-                required: 'Insira seu nome para continuar.'
+                required: 'Insira seu nome para continuar.',
             },
             email: {
                 required: 'Insira seu E-mail para continuar.',
-                email: 'Digite um endereço de E-mail valido.'
+                email: 'Digite um endereço de E-mail valido.',
             },
             mensagem: {
-                required: 'Deixe a sua mensagem.'
-            }
-        }
+                required: 'Deixe a sua mensagem.',
+            },
+        },
     });
-})
-
+});

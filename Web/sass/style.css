@@ -433,11 +433,6 @@ body {
     top: 0;
     left: 0;
     overflow: hidden; }
-
-.opcoes-menu {
-  /*.opcoes-menu-botao-fechar{
-    background-position: -48px 7px;
-}*/ }
   .opcoes-menu-botao {
     display: block;
     width: 50px;

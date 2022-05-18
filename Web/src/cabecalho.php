@@ -1,4 +1,3 @@
-
 <!DOCTYPE html>
 <html lang="pt-br">
 
@@ -9,8 +8,20 @@
     <link rel="stylesheet" type="text/css" href="//cdn.jsdelivr.net/npm/slick-carousel@1.8.1/slick/slick.css" />
     <link rel="stylesheet" type="text/css" href="https://cdn.jsdelivr.net/jquery.slick/1.5.0/slick-theme.css" />
     <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/@fancyapps/ui@4.0/dist/fancybox.css" />
+    <link rel="shortcut icon" href="/favicon.ico" type="image/x-icon">
     <link rel="stylesheet" href="style.css" />
-    <title>Projeto Udemy</title>
+
+ <?php
+    $titulo = "Projeto Udemy";
+    global $tituloPagina;
+
+    if ($tituloPagina != '') {
+    $titulo .= ' | ' . $tituloPagina;
+    
+    }
+?>
+
+    <title><?php echo $titulo ?></title>
 </head>
 
 <body>
@@ -23,19 +34,19 @@
                 <button class="opcoes-menu-botao ">Abrir/fechar opcoes</button>
                 <ul class="opcoes-menu-lista">
                     <li>
-                        <a href="index.php" class="opcoes-menu-item opcoes-menu-item-atual">Home</a>
+                        <a href="index.php" class="opcoes-menu-item <?php echo $tituloPagina == '' ? 'opcoes-menu-item-atual' : '' ?> ">Home</a>
                     </li>
 
                     <li>
-                        <a href="sobre.php" class="opcoes-menu-item">Sobre nós</a>
+                        <a href="sobre.php" class="opcoes-menu-item <?php echo $tituloPagina == 'Sobre nós' ? 'opcoes-menu-item-atual' : '' ?> ">Sobre nós</a>
                     </li>
 
                     <li>
-                        <a href="portifolio.php" class="opcoes-menu-item">Portifolio</a>
+                        <a href="portfolio.php" class="opcoes-menu-item <?php echo $tituloPagina == 'Portfolio' ? 'opcoes-menu-item-atual' : '' ?> ">Portifolio</a>
                     </li>
 
                     <li>
-                        <a href="contato.php" class="opcoes-menu-item">Contato</a>
+                        <a href="contato.php" class="opcoes-menu-item <?php echo $tituloPagina == 'Contato' ? 'opcoes-menu-item-atual' : '' ?> ">Contato</a>
                     </li>
                 </ul>
             </nav>
