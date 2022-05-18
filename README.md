@@ -7,6 +7,5 @@ Projeto realizado no curso https://www.udemy.com/course/desenvolvimento-responsi
 Tecnologias
 
 * HTML
-* Css
-* Sass
+* Scss
 * PHP
