@@ -1,4 +1,4 @@
-## Lading page com HTML, SCSS e JavaScript
+## Lading page com HTML, SCSS, JavaScript e PHP.
 #### Projeto de uma lading page realizado para aprendizado no curso https://www.udemy.com/course/desenvolvimento-responsivo-com-html5-css3-e-javascript/
 
 ### Projeto com JavaScript se encontra na branch [main](https://github.com/arthurlbo/ArthurLbo_Design-Responsivo)
