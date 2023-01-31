@@ -1,5 +1,3 @@
-<img src="./assets/lp_udemy.png" alt="readme image" />
-
 ## Lading page com HTML, CSS e JavaScript
 #### Projeto de uma lading page realizado para aprendizado no curso https://www.udemy.com/course/desenvolvimento-responsivo-com-html5-css3-e-javascript/
 
