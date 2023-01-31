@@ -1,12 +1,13 @@
-# Desenvolvimento responsivo com HTML5, CSS3 e JavaScript
+<img src="./assets/lp_udemy.png" alt="readme image" />
 
-Projeto realizado no curso https://www.udemy.com/course/desenvolvimento-responsivo-com-html5-css3-e-javascript/
+## Lading page com HTML, CSS e JavaScript
+#### Projeto de uma lading page realizado para aprendizado no curso https://www.udemy.com/course/desenvolvimento-responsivo-com-html5-css3-e-javascript/
 
-* Projeto com o Back-end em PHP encontra-se na branch Php.
+#### Projeto com PHP se encontra na branch Php
 
-Tecnologias
+## 💻 Tecnologias ultilizadas
 
-* HTML
-* SCSS
-* JavaScript
-* PHP
+- [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
+- [SCSS](https://sass-lang.com/)
+- [JavaScript](https://developer.mozilla.org/pt-BR/docs/Web/JavaScript)
+- [PHP](https://www.php.net/)
