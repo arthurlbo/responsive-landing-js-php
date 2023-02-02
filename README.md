@@ -1,9 +1,9 @@
-## Lading page com HTML, SCSS, JavaScript e PHP.
-#### Projeto de uma lading page realizado para aprendizado no curso https://www.udemy.com/course/desenvolvimento-responsivo-com-html5-css3-e-javascript/
+## Lading page made with HTML, SCSS, JavaScript e PHP.
+#### Design of a landing page carried out in the [course](https://www.udemy.com/course/desenvolvimento-responsivo-com-html5-css3-e-javascript/) with the purpose of learning.
 
-### Projeto com PHP se encontra na branch [Php](https://github.com/arthurlbo/ArthurLbo_Design-Responsivo/tree/Php)
+### Project made with PHP is in the branch [Php](https://github.com/arthurlbo/ArthurLbo_Design-Responsivo/tree/Php)
 
-## 💻 Tecnologias ultilizadas
+## 💻 Technologies
 
 - [HTML](https://developer.mozilla.org/pt-BR/docs/Web/HTML)
 - [SCSS](https://sass-lang.com/)
