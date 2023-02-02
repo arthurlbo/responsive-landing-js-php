@@ -1,5 +1,5 @@
 ## Lading page made with HTML, SCSS, JavaScript e PHP.
-#### Design of a landing page carried out in the [course](https://www.udemy.com/course/desenvolvimento-responsivo-com-html5-css3-e-javascript/) with the purpose of learning.
+#### Design of a landing page carried out in this [course](https://www.udemy.com/course/desenvolvimento-responsivo-com-html5-css3-e-javascript/) on udemy, with the purpose of learning.
 
 ### Project made with PHP is in the branch [Php](https://github.com/arthurlbo/ArthurLbo_Design-Responsivo/tree/Php)
 
